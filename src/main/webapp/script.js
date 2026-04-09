@@ -29,8 +29,8 @@ function renderTasks() {
     li.innerHTML = `
       <span onclick="toggleComplete(${index})">${task.text}</span>
       <div>
-        <button onclick="editTask(${index})">✏️</button>
-        <button onclick="deleteTask(${index})">❌</button>
+        <button onclick="editTask(${index})">Edit</button>
+        <button onclick="deleteTask(${index})">Delete</button>
       </div>
     `;
 
