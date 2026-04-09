@@ -17,7 +17,7 @@ function renderTasks() {
   list.innerHTML = "";
 
   if (tasks.length === 0) {
-    list.innerHTML = "<p style='text-align:center;opacity:0.6'>No tasks yet 🚀</p>";
+    list.innerHTML = "<p style='text-align:center;opacity:0.6'>No tasks yet </p>";
     return;
   }
 
